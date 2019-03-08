@@ -1,0 +1,44 @@
+{
+  "name": "blobify",
+  "version": "1.0.0",
+  "description": "A Javascript automation tool to convert file to blob object and vice-versa.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare" : "npm run build",
+    "prepublishOnly" : "npm test && npm run lint",
+    "preversion" : "npm run lint",
+    "version" : "npm run format && git add -A src",
+    "postversion" : "git push && git push --tags"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atayahmet/blobify.git"
+  },
+  "keywords": [
+    "blob",
+    "chunks"
+  ],
+  "author": "Ahmet ATAY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atayahmet/blobify/issues"
+  },
+  "homepage": "https://github.com/atayahmet/blobify#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "jest": "^24.3.1",
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.13.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.3333"
+  }
+}
