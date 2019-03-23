@@ -1,6 +1,6 @@
 {
   "name": "@atayahmet/blobify",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A Javascript automation tool to convert file to blob object and vice-versa.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -40,6 +40,7 @@
     "cross-env": "^5.2.0",
     "jest": "^24.3.1",
     "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
     "tslint": "^5.13.1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.3.3333"
