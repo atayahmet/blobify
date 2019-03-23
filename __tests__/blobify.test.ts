@@ -1,4 +1,4 @@
-import Blobify, { base64Encode, chunk, createBlob, pipe, removeBase64Data, toStream } from '../src/Blobify';
+import Blobify, { base64Encode, chunk, createBlob, pipe, removeBase64Data, toStream } from '../src/blobify';
 
 const text = `Lorem ipsum dolor amet fashion axe quinoa fingerstache vexillologist, helvetica pok pok keytar glossier forage single-origin coffee cornhole. Readymade kickstarter slow-carb palo santo, iPhone copper mug 3 wolf moon lo-fi meditation. Etsy plaid authentic forage, next level truffaut art party. Normcore artisan austin humblebrag chartreuse, tousled unicorn whatever. Put a bird on it asymmetrical migas, gentrify poutine freegan mumblecore fanny pack deep v hashtag chambray meggings man bun. Prism hoodie hot chicken single-origin coffee cray. Hell of post-ironic pinterest, polaroid farm-to-table subway tile meggings.
 
