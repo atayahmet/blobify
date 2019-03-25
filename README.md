@@ -1,8 +1,8 @@
 # Blobify
 A Javascript automation tool to convert from html file object to blob object and more capabilities with creating custom helper function.
 
-[![npm version](https://badge.fury.io/js/blobify.svg)](https://badge.fury.io/js/blobify)
-[![Build Status](https://travis-ci.org/atayahmet/blobify.svg?branch=v0.0.5-beta5)](https://travis-ci.org/atayahmet/blobify)
+[![npm version](https://badge.fury.io/js/%40atayahmet%2Fblobify.svg)](https://badge.fury.io/js/%40atayahmet%2Fblobify)
+[![Build Status](https://travis-ci.org/atayahmet/blobify.svg?branch=master)](https://travis-ci.org/atayahmet/blobify.svg?branch=master)
 [![Dependency Status](https://img.shields.io/david/atayahmet/storage-based-queue.svg?style=flat-square)](https://david-dm.org/atayahmet/storage-based-queue)
 [![Known Vulnerabilities](https://snyk.io/test/github/atayahmet/blobify/badge.svg?targetFile=package.json)](https://snyk.io/test/github/atayahmet/blobify?targetFile=package.json)
 [![GitHub license](https://img.shields.io/github/license/atayahmet/storage-based-queue.svg)](https://github.com/atayahmet/blobify/blob/master/LICENSE)
